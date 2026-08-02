@@ -2,28 +2,34 @@
 <html>
 
 <head>
-    <link rel="" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Caveat:wght@400;700&display=swap"
         rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Silly Portfolio</title>
+    <title>Pranay's corner</title>
 </head>
 
 
-<body class="bg-stone-200 text-stone-900 min-h-screen" style="font-family: Manrope, sans-serif;">
+<body class="min-h-screen" style="font-family: 'IBM Plex Sans', sans-serif;
+             background-image: url('images/Paper-background.jpg');
+             background-size: cover;
+             background-position: center;
+             background-attachment: fixed;
+             ">
 
-    <nav class="border-b border-stone-300">
+    <nav class=" border-b border-stone-300">
 
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
             <h1 class="text-xl text-orange-600 font-bold">
-                Pranay.dev
+                Pranay
             </h1>
 
             <div class="space-x-6">
-                <a href="#" class="hover:text-orange-600 transition">Home</a>
-                <a href="#" class="hover:text-orange-600 transition">Projects</a>
-                <a href="#" class="hover:text-orange-600 transition">About Me</a>
+                <a href="#home" class="hover:text-orange-600 transition">Home</a>
+                <a href="#" class="hover:text-orange-600 transition">Things I have built</a>
+                <a href="#" class="hover:text-orange-600 transition">Lore</a>
                 <a href="#" class="hover:text-orange-600 transition">Contact</a>
             </div>
 
@@ -31,41 +37,58 @@
 
     </nav>
 
-    <section class="max-w-6xl mx-auto px-6 py-20">
+    <section id="home" class="max-w-6xl mx-auto px-6 py-20">
 
         <div class="grid md:grid-cols-2 gap-12 items-center">
 
             <div>
 
-                <p class="text-orange-600 mb-3">
-                    Electronics • PCB Design • Embedded Systems
+                <p class="text-lg text-stone-600 mb-8">
+                    Welcome to my corner of the internet.
                 </p>
 
                 <h1 class="text-5xl font-bold mb-6">
-                    Hi, I'm Pranay
+                    I'm Pranay
                 </h1>
 
                 <p class="text-stone-600 text-lg mb-8">
-                    I enjoy building electronics hardware projects, designing PCBs,
-                    creating CAD models, and making cool stuff.
+                    This page is all about me and my projects. I build things mostly electronics and hardware. <br>
+                    This is where I keep my projects thoughts and whatever I'm obsessed with.
+
                 </p>
 
                 <div class="flex gap-4">
 
                     <a href="https://github.com/pranay-k4" target="_blank"
                         class="border border-stone-400 px-6 py-3 rounded-lg hover:border-orange-400 hover:text-orange-600 transition inline-block">
-                        GitHub
+                        Github
                     </a>
 
+                    <p class="text-stone-500 text-sm mt-4">
+                        don't judge me
+                    </p>
+
                 </div>
+
+            </div>
+
+            <div class="bg-yellow-200 p-4 rounded shadow-lg rotate-3 w-60 mt-6" style="font-family:'Caveat', cursive;">
+
+                <p class="text-lg">
+                    Currently Building:
+                </p>
+
+                <p class="text-2xl font-bold">
+                    BuildPad
+                </p>
 
             </div>
 
             <div class="flex justify-center">
 
                 <img src="https://avatars.githubusercontent.com/u/264203389?s=400&u=df38d639172d919963a28153beed6357370907bc&v=4"
-                    alt="Pranay profile picture"
-                    class="w-72 rounded-2xl border-2 border-orange-600 hover:scale-105 transition duration-300">
+                    alt="my photo"
+                    class="w-72 rotate-2 border-8 border-white shadow-xl hover:rotate-0 transition duration-300">
 
             </div>
 
@@ -84,19 +107,17 @@
                     </h3>
 
                     <p class="text-stone-600 text-sm">
-                        Built with HTML, Tailwind CSS, and passion.
+                        Built by a sleep deprived Pranay.
                     </p>
                 </div>
                 <div class="flex gap-6">
 
-                    <a href="https://github.com/pranay-k4" 
-                       target="_blank"
-                       class="text-stone-600 hover:text-orange-600 transition">
+                    <a href="https://github.com/pranay-k4" target="_blank"
+                        class="text-stone-600 hover:text-orange-600 transition">
                         Github
                     </a>
-                    <a href="mailto:pranaykamle380@gmail.com" 
-                       class="text-stone-600 hover:text-orange-600 transition">
-                        Email
+                    <a href="mailto:pranaykamle380@gmail.com" class="text-stone-600 hover:text-orange-600 transition">
+                        Mail me
                     </a>
                 </div>
 
@@ -106,7 +127,6 @@
         </div>
     </footer>
 
-
 </body>
 
-</html>>
+</html>
