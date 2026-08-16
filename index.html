@@ -13,7 +13,7 @@
 
 
 <body class="min-h-screen" style="font-family: 'IBM Plex Sans', sans-serif;
-             background-image: url('images/Paper-background.jpg');
+             background-image: url('images/desk-bg.jpg');
              background-size: cover;
              background-position: center;
              background-attachment: fixed;
@@ -53,114 +53,225 @@
 
     <section id="home" class="max-w-6xl mx-auto px-6 py-20">
 
-        <div class="grid md:grid-cols-2 gap-16 items-start">
+        <div class="bg-stone-900 p-6 rounded-xl shadow-2xl rotate-[-1deg]">
 
-            <!-- LEFT SIDE -->
-            <div>
+            <div class="bg-[url('images/paper-bg.jpg')] bg-cover rounded-lg p-10 md:p-16 rotate-[1deg]">
 
-                <p class="text-lg text-stone-600 mb-6">
-                    Welcome to my corner of the internet.
-                </p>
+                <div class="grid md:grid-cols-2 gap-16 items-start">
 
-                <h1 class="text-5xl font-bold mb-6">
-                    I'm Pranay
-                </h1>
+                    <!-- LEFT SIDE -->
+                    <div>
 
-                <p class="text-stone-600 text-lg mb-8 leading-relaxed">
-                    This page is all about me and my projects. I build things mostly
-                    electronics and hardware.
-                    <br>
-                    This is where I keep my projects, thoughts, and whatever I'm
-                    obsessed with.
-                </p>
-
-                <div class="mb-8">
-
-                    <a href="https://github.com/pranay-k4" target="_blank"
-                        class="inline-block bg-stone-800 text-stone-100 px-6 py-3 rounded-lg shadow hover:-rotate-1 hover:shadow-lg transition">
-
-                        → Visit my GitHub
-
-                    </a>
-
-                    <p class="text-stone-500 text-sm mt-3">
-                        warning: contains unfinished projects
-                    </p>
-
-                </div>
-
-                <!-- Current project note -->
-                <div class="bg-yellow-200 p-4 rounded shadow-lg rotate-2 w-60" style="font-family:'Caveat', cursive;">
-
-                    <p class="text-lg">
-                        Currently Building:
-                    </p>
-
-                    <p class="text-2xl font-bold">
-                        BuildPad
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- RIGHT SIDE -->
-            <div class="flex flex-col items-center gap-6">
-
-                <div class="relative flex justify-center">
-
-                    <!-- tape -->
-                    <div class="absolute -top-3 left-24 w-20 h-6 bg-yellow-100 rotate-6 opacity-90 z-20 shadow">
-                    </div>
-
-                    <!-- pfp -->
-                    <img src="https://avatars.githubusercontent.com/u/264203389?s=400&u=df38d639172d919963a28153beed6357370907bc&v=4"
-                        alt="my photo"
-                        class="relative z-10 w-72 rotate-2 border-8 border-white shadow-xl hover:rotate-0 transition duration-300">
-
-                    <!-- Truth about me -->
-                    <div class="absolute -bottom-6 -right-8 bg-orange-200 p-3 rounded shadow-lg rotate-6 z-20"
-                        style="font-family:'Caveat', cursive;">
-
-                        <p class="text-2xl font-bold">
-                            GOAT
+                        <p class="text-lg text-stone-600 mb-6">
+                            Welcome to my corner of the internet.
                         </p>
 
+                        <h1 class="text-5xl font-bold mb-6">
+                            I'm Pranay
+                        </h1>
+
+                        <p class="text-stone-600 text-lg mb-8 leading-relaxed">
+                            This page is all about me and my projects. I build things mostly
+                            electronics and hardware.
+                            <br>
+                            This is where I keep my projects, thoughts, and whatever I'm
+                            obsessed with.
+                        </p>
+
+                        <div class="mb-8">
+
+                            <a href="https://github.com/pranay-k4" target="_blank"
+                                class="inline-block bg-stone-800 text-stone-100 px-6 py-3 rounded-lg shadow hover:-rotate-1 hover:shadow-lg transition">
+
+                                → Visit my GitHub
+
+                            </a>
+
+                            <p class="text-stone-500 text-sm mt-3">
+                                warning: contains unfinished projects
+                            </p>
+
+                        </div>
+
+                        <!-- current project or smth else note -->
+                        <div class="bg-yellow-200 p-4 rounded shadow-lg rotate-2 w-60"
+                            style="font-family:'Caveat', cursive;">
+
+                            <p class="text-lg">
+                                Currently Building:
+                            </p>
+
+                            <p class="text-2xl font-bold">
+                                BuildPad
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- RIGHT SIDE -->
+                    <div class="flex flex-col items-center gap-6">
+
+                        <div class="relative flex justify-center">
+
+                            <!-- tape -->
+                            <div class="absolute -top-3 left-24 w-20 h-6 bg-yellow-100 rotate-6 opacity-90 z-20 shadow">
+                            </div>
+
+                            <!-- pfp -->
+                            <img src="https://avatars.githubusercontent.com/u/264203389?s=400&u=df38d639172d919963a28153beed6357370907bc&v=4"
+                                alt="my photo"
+                                class="relative z-10 w-72 rotate-2 border-8 border-white shadow-xl hover:rotate-0 transition duration-300">
+
+                            <!-- Truth about me -->
+                            <div class="absolute -bottom-6 -right-8 bg-orange-200 p-3 rounded shadow-lg rotate-6 z-20"
+                                style="font-family:'Caveat', cursive;">
+
+                                <p class="text-2xl font-bold">
+                                    GOAT
+                                </p>
+
+                            </div>
+
+                        </div>
+
                     </div>
 
                 </div>
+
             </div>
 
-    </section>
-
-    <section id="workbench" class="max-w-6xl mx-auto px-6 py-20">
-        <h2 class="text-4xl font-bold">Workbench</h2>
-
-        <p class="text-stone-600 mb-10">
-            Stuff currently scattered around my desk.
-        </p>
-
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-amber-100 border-2 border-amber-200">
-                <h3>BuildPad</h3>
-                <p>a custom macropad for builders.</p>
-            </div>
-
-            <div class="bg-amber-100 border-2 border-amber-200">
-                <h3>Blinky Board</h3>
-                <p>a 555 Led chaser board.</p>
-            </div>
-
-            <div class="bg-amber-100 border-2 border-amber-200">
-                <h3>Personal Website</h3>
-                <p>making my corner in the internet</p>
-            </div>
         </div>
+
     </section>
 
-    <footer class="mt-24 border-t border-stone-400/40">
+    <section id="workbench">
 
-        <div class="max-w-6xl mx-auto px-6 py-10">
+        <div clas="max-w-6xl mx-auto px-6">
+
+            <div class="bg-[#5b4636] p-4 rounded-lg shadow-2xl">
+
+                <div class="bg-[url(images/board-bg.jpg)] bg-cover p-10 rounded">
+
+                    <h2 class="text-5xl font-bold mb-12 text-center">
+                        Workbench
+                    </h2>
+
+                    <p class="text-stone-600 mb-10">
+                        Stuff currently scattered around my desk.
+                    </p>
+
+
+
+                    <div class="grid md:grid-cols-3 gap-10">
+
+                        <a href="https://github.com/pranay-k4/BuildPad">
+
+                            <div class="bg-yellow-100 shadow-xl p-6 rotate-1 relative">
+
+                                <div class="absolute -top-2 left-1/2 w-4 h-4 bg-red-600 rounded-full"></div>
+
+                                <h3>
+                                    BuildPad
+                                </h3>
+
+                                <p>
+                                    a custom macropad for builders.
+                                </p>
+
+                            </div>
+
+                        </a>
+
+                        <a href="https://github.com/pranay-k4/555-LED-Chaser">
+
+                            <div class="bg-blue-100 shadow-xl p-6 rotate-1 relative">
+
+                                <div class="absolute -top-2 left-1/2 w-4 h-4 bg-red-600 rounded-full"></div>
+
+                                <h3 class="text-2xl font-bold mb-4">
+                                    Blinky Board
+                                </h3>
+
+                                <p>
+                                    a 555 Led chaser board.
+                                </p>
+
+                            </div>
+
+                        </a>
+
+                        <a href="https://github.com/pranay-k4/my-first-website">
+
+                            <div class="bg-green-100 shadow-xl p-6 rotate-1 relative">
+
+                                <div class="absolute -top-2 left-1/2 w-4 h-4 bg-red-600 rounded-full"></div>
+
+                                <h3 class="text-2xl font-bold mb-4">
+                                    Personal Website
+                                </h3>
+
+                                <p>
+                                    making this website
+                                </p>
+
+                            </div>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="lore" class="max-w-6xl mx-auto px-6 py-20">
+
+        <div class="bg-[url(images/paper-bg.jpg)] bg-cover rounded-lg shadow-2xl p-12">
+
+            <h2 class="text-5xl font-bold mb-12">
+                Lore
+            </h2>
+
+            <div class="flex flex-wrap gap-8">
+
+                <div class="bg-yellow-200 p-5 rotate-2 shadow-lg" style="font-family: 'Caveat',cursive;">
+
+                    Fact#1
+
+                </div>
+
+                <div class="bg-blue-200 p-5 rotate-2 shadow-lg" style="font-family: 'Caveat',cursive;">
+
+                    Fact#2
+
+                </div>
+
+                <div class="bg-green-200 p-5 rotate-2 shadow-lg" style="font-family: 'Caveat',cursive;">
+
+                    Fact#3
+
+                </div>
+
+                <div class="bg-pink-200 p-5 rotate-2 shadow-lg" style="font-family: 'Caveat',cursive;">
+
+                    Fact#4
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer id="contact" class="mt-24 border-t border-stone-400/40">
+
+        <div class="bg-[url(images/paper-bg.jpg)] bg-cover rounded-lg shadow-2xl max-w-6xl mx-auto px-6 py-10">
 
             <div class="flex flex-col md:flex-row justify-between items-center gap-6">
 
